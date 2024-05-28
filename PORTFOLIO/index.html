@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Metadados -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Victor Augusto Buczek</h1>
+        <!-- pontos principais -->
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#educação">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Victor. Sou estágiario. Nos meus tempos livres, gosto de jogar basquete/ videogame.</p>
+    </section>
+
+    <section id="educação">
+        <h2>Formação</h2>
+        <p>Formação educacional: Atualmente cursando Analise e desenvolvimento de sistemas.</p>
+        <p>Idiomas: Ingles Intermediario.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>Aqui estão alguns dos meus trabalhos:</p>
+        <ul>
+            <li>Projeto 1</li>
+            <li>Projeto 2</li>
+            <li>Projeto 3</li>
+        </ul>
+    </section>
+
+    <section id="Contato">
+        <h2>Contato</h2>
+        <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <!-- Botão Enviar -->
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
